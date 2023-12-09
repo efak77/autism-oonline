@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(81, 91, 233);
+}
+.inicio,
+.social,
+.ajuda {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.inicio img,
+.sobre img,
+.social img {
+  width: 45%;
+  height: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.inicio p,
+.social p,
+.ajuda p {
+  max-width: 45%;
+  text-align: left;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.social {
+  flex-direction: row-reverse;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 10px auto;
+  border: 2px solid wheat;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
